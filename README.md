@@ -8,22 +8,22 @@ Additionally, `Google Colab` was used to perform this challenge instead of the t
 **Note** - As a challenge to myself and to practice writing codes, I've also included the usage of groupBy function from `PySpark` to perform the same queries for the questions being asked.
 
 ## Objectives/Questions
-The questions were answered with the outputs as followed:
-1.  What is the average price for a four bedroom house sold in each year rounded to two decimal places?
+The questions were answered with the outputs as follows:
+1.  What is the average price for a four bedroom house sold in each year rounded to two decimal places?<br/>
 ![Alt text](img/q3.png)
 
-2.  What is the average price of a home for each year the home was built that have 3 bedrooms and 3 bathrooms rounded to two decimal places?
+2.  What is the average price of a home for each year the home was built that have 3 bedrooms and 3 bathrooms rounded to two decimal places?<br/>
 ![Alt text](img/q4.png)
 
-3.  What is the average price of a home for each year built that have 3 bedrooms, 3 bathrooms, with two floors, and are greater than or equal to 2,000 square feet rounded to two decimal places?
+3.  What is the average price of a home for each year built that have 3 bedrooms, 3 bathrooms, with two floors, and are greater than or equal to 2,000 square feet rounded to two decimal places?<br/>
 ![Alt text](img/q5.png)
 
 4.  What is the "view" rating for the average price of a home, rounded to two decimal places, where the homes are greater than or equal to $350,000? Although this is a small dataset, determine the run time for this query.
-    -   Output result without caching.
+    -   Output result without caching.<br/>
     ![Alt text](img/q6_uncached.png)
-    -   Output result by caching.
+    -   Output result by caching.<br/>
     ![Alt text](img/q6_cached.png)
-    -   Output result by partitioning.
+    -   Output result by partitioning.<br/>
     ![Alt text](img/q6_partitioned.png)
 
 ## Conclusion
